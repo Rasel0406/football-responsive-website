@@ -580,7 +580,7 @@ footer {
     .banner-images {
         width: 329px;
         height: 259px;
-        padding-top: 10px;
+        margin-bottom: 20px;
     }
 
     .menu-name label i {
@@ -611,7 +611,7 @@ footer {
     }
 
 
-
+     .player,
     .highlights,
     .blogs {
         grid-template-columns: repeat(1, 1fr);
@@ -638,17 +638,24 @@ footer {
         width: 100%;
     }
 
-
-
-
-
     .players h1 {
         width: 100%;
     }
-
     .players {
         width: 100%;
-    }
-}
 
+    }
+.last-news,
+.player {
+    grid-template-columns: repeat(1, 1fr);
+
+}
+footer{
+    width: 100%;
+}
+.footer-image img{
+    width: 100%;
+    margin-right: 20px;
+}
+}
 /* media query end */
